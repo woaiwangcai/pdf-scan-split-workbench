@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+~$*
+_render_*/
+input/
+output/
+相关文档/
+legacy_demo_main.py
+.codex_*_test.json

@@ -1,0 +1,31 @@
+{
+  "default_prefix": "项目名称_姓名_房号_",
+  "variable_column_width": 220,
+  "side_panel_size": "standard",
+  "naming_blocks": [
+    {
+      "type": "fixed",
+      "value": "项目名称_",
+      "locked": true
+    },
+    {
+      "type": "variable",
+      "label": "材料名称",
+      "locked": false
+    },
+    {
+      "type": "fixed",
+      "value": "_归档资料",
+      "locked": true
+    }
+  ],
+  "materials": [
+    "1.材料一",
+    "2.材料二",
+    "3.材料三",
+    "4.材料四",
+    "5.材料五"
+  ],
+  "output_location_mode": "source",
+  "custom_output_dir": ""
+}
