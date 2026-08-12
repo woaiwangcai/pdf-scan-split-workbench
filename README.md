@@ -2,6 +2,10 @@
 
 一个面向 Windows 的本地桌面工具，用于处理厚扫描 PDF：预览页面、删除空白页、人工记录页码、按自定义命名规则拆分并导出。它适合页面内容相似、无法可靠依靠脚本或 OCR 自动判断边界的扫描材料。
 
+## 直接下载
+
+不想配置 Python 环境，可以前往 [Releases](https://github.com/woaiwangcai/pdf-scan-split-workbench/releases/latest) 下载 Windows 便携版 ZIP。解压完整文件夹后，双击 `PDF扫描件拆分工作台.exe` 即可运行。
+
 ## 功能
 
 - 导入本地 PDF 并生成页面缩略图。
@@ -37,7 +41,7 @@ python -m pip install -r requirements.txt
 python main.py
 ```
 
-也可以使用 `py main.py` 启动。当前项目以源码方式运行，尚未提供打包后的 `.exe`。
+也可以使用 `py main.py` 启动。
 
 ## 基本流程
 

@@ -7,3 +7,8 @@ output/
 相关文档/
 legacy_demo_main.py
 .codex_*_test.json
+build/
+dist/
+release/
+.build-venv/
+*.spec
