@@ -46,20 +46,20 @@ except ModuleNotFoundError as exc:
         ) from exc
     raise
 
-from app_state import AppState
-from exporter import MaterialInput, export_materials
-from naming_rules import (
+from .app_state import AppState
+from .exporter import MaterialInput, export_materials
+from .naming_rules import (
     load_config,
     load_workspace_rows,
     save_config,
     save_workspace_rows,
     split_numbered_material,
 )
-from page_workspace import PageWorkspace
-from pdf_engine import remove_blank_pages, save_ordered_pdf
+from .page_workspace import PageWorkspace
+from .pdf_engine import remove_blank_pages, save_ordered_pdf
 
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = BASE_DIR / "config.json"
 LOCAL_DATA_DIR = Path(os.environ.get("LOCALAPPDATA", Path.home())) / "PDFScanSplitWorkbench"
 USER_CONFIG_PATH = LOCAL_DATA_DIR / "config.json"

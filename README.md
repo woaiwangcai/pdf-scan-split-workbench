@@ -21,15 +21,17 @@
 ```text
 PDF扫描件拆分工作台/
 ├─ main.py              # 程序入口
-├─ ui_app.py            # 主窗口和选项窗口
-├─ page_workspace.py    # 页面预览、缩放、删除和拖拽
-├─ app_state.py         # 当前会话状态
-├─ pdf_engine.py        # PDF 读取、渲染和空白页处理
-├─ naming_rules.py      # 命名结构和文件名处理
-├─ exporter.py          # 页码校验和拆分导出
 ├─ config.json          # 通用示例配置
 ├─ requirements.txt     # Python 依赖
-└─ .gitignore           # 本地文件排除规则
+├─ .gitignore           # 本地文件排除规则
+└─ pdf_split_workbench/
+   ├─ __init__.py
+   ├─ ui_app.py         # 主窗口和选项窗口
+   ├─ page_workspace.py # 页面预览、缩放、删除和拖拽
+   ├─ app_state.py      # 当前会话状态
+   ├─ pdf_engine.py     # PDF 读取、渲染和空白页处理
+   ├─ naming_rules.py   # 命名结构和文件名处理
+   └─ exporter.py       # 页码校验和拆分导出
 ```
 
 ## 安装与启动

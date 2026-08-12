@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from pathlib import Path
 
-from naming_rules import build_output_name, build_structured_output_name, unique_path
+from .naming_rules import build_output_name, build_structured_output_name, unique_path
 
 
 SKIP_VALUES = {"", "无", "跳过"}

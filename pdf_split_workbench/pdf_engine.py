@@ -2,7 +2,7 @@ from pathlib import Path
 
 import fitz
 
-from naming_rules import safe_name, unique_directory, unique_path
+from .naming_rules import safe_name, unique_directory, unique_path
 
 
 def make_default_output_dir(source_pdf: Path) -> Path:

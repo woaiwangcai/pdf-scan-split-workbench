@@ -1,4 +1,4 @@
-from ui_app import main
+from pdf_split_workbench.ui_app import main
 
 
 if __name__ == "__main__":
